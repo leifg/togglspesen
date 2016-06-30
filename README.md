@@ -5,7 +5,7 @@ Little script to read all time entries tagged with "on location" and write it in
 ## Usage
 
 ```shell
-ruby export <year> <month>
+ruby export.rb <year> <month>
 ```
 
 Will output CSV format.
@@ -13,5 +13,5 @@ Will output CSV format.
 Example:
 
 ```shell
-ruby export 2016 6 > spesen-2016-06.csv
+ruby export.rb 2016 6 > spesen-2016-06.csv
 ```
